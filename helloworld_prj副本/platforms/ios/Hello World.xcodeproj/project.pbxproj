@@ -97,6 +97,7 @@
 		B4F34C921BE0CE4800E5306D /* jasmine.js in Resources */ = {isa = PBXBuildFile; fileRef = B4F34C581BE0CE4800E5306D /* jasmine.js */; settings = {ASSET_TAGS = (); }; };
 		B4F34C931BE0CE4800E5306D /* MIT.LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B4F34C591BE0CE4800E5306D /* MIT.LICENSE */; settings = {ASSET_TAGS = (); }; };
 		B4F34C941BE0CE4800E5306D /* spec.html in Resources */ = {isa = PBXBuildFile; fileRef = B4F34C5A1BE0CE4800E5306D /* spec.html */; settings = {ASSET_TAGS = (); }; };
+		B4F5EEBE1BE2056600791ED3 /* CDVMyPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F5EEBD1BE2056600791ED3 /* CDVMyPlugin.m */; settings = {ASSET_TAGS = (); }; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
 /* End PBXBuildFile section */
 
@@ -214,6 +215,8 @@
 		B4F34C581BE0CE4800E5306D /* jasmine.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jasmine.js; sourceTree = "<group>"; };
 		B4F34C591BE0CE4800E5306D /* MIT.LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MIT.LICENSE; sourceTree = "<group>"; };
 		B4F34C5A1BE0CE4800E5306D /* spec.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = spec.html; sourceTree = "<group>"; };
+		B4F5EEBC1BE2056600791ED3 /* CDVMyPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVMyPlugin.h; sourceTree = "<group>"; };
+		B4F5EEBD1BE2056600791ED3 /* CDVMyPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVMyPlugin.m; sourceTree = "<group>"; };
 		D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
 		EB87FDF21871DA7A0020F90C /* merges */ = {isa = PBXFileReference; lastKnownFileType = folder; name = merges; path = ../../merges; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
@@ -316,6 +319,8 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				B4F5EEBC1BE2056600791ED3 /* CDVMyPlugin.h */,
+				B4F5EEBD1BE2056600791ED3 /* CDVMyPlugin.m */,
 			);
 			name = Plugins;
 			path = "Hello World/Plugins";
@@ -831,6 +836,7 @@
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				B4F34C8B1BE0CE4800E5306D /* README.md in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
+				B4F5EEBE1BE2056600791ED3 /* CDVMyPlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
